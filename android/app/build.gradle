@@ -1,30 +1,28 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
 
 android {
-    namespace 'com.myvisitor.app'
-    compileSdk 33
+    compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.myvisitor.app"
-        minSdk 21
-        targetSdk 33
+        applicationId "com.myvisitor"
+        minSdkVersion 21
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
 
     buildTypes {
         release {
-            // For demo we use debug signing config; Codemagic will handle proper signing
-            signingConfig signingConfigs.debug
             minifyEnabled false
-            shrinkResources false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
-    implementation 'androidx.core:core-ktx:1.9.0'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.8.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
