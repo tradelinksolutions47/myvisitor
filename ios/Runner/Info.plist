@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "">
 <plist version="1.0">
 <dict>
-    <key>CFBundleName</key>
-    <string>MyVisitor</string>
+  <key>CFBundleName</key>
+  <string>MyVisitor</string>
 </dict>
 </plist>

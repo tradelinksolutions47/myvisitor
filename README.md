@@ -1,3 +1,3 @@
-# MyVisitor full Flutter project (ready for Codemagic)
+# MyVisitor (Flutter 3.x scaffold)
 
-Replace lib/ or edit as needed.
+Replace or edit as needed.
