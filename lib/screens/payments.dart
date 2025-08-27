@@ -7,7 +7,7 @@ class PaymentsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Payments')),
-      body: Center(child: Text('Mock maintenance payment screen.')),
+      body: const Center(child: Text('Mock maintenance payment screen.')),
     );
   }
 }

@@ -1,0 +1,7 @@
+build/
+.idea/
+.packages
+.pub/
+.dart_tool/
+.gradle/
+local.properties

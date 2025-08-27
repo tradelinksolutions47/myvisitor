@@ -7,7 +7,7 @@ class VisitorsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Visitors')),
-      body: Center(child: Text('List of visitors with approval toggle here.')),
+      body: const Center(child: Text('List of visitors with approval toggle here.')),
     );
   }
 }

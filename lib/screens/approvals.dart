@@ -7,7 +7,7 @@ class ApprovalsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Approvals')),
-      body: Center(child: Text('Pending approvals screen.')),
+      body: const Center(child: Text('Pending approvals screen.')),
     );
   }
 }

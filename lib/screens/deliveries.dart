@@ -7,7 +7,7 @@ class DeliveriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Deliveries')),
-      body: Center(child: Text('Delivery visitors screen.')),
+      body: const Center(child: Text('Delivery visitors screen.')),
     );
   }
 }

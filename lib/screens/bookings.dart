@@ -7,7 +7,7 @@ class BookingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Bookings')),
-      body: Center(child: Text('Facility booking screen.')),
+      body: const Center(child: Text('Facility booking screen.')),
     );
   }
 }

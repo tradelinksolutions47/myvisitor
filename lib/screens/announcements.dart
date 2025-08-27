@@ -7,7 +7,7 @@ class AnnouncementsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Announcements')),
-      body: Center(child: Text('Announcements from RWA.')),
+      body: const Center(child: Text('Announcements from RWA.')),
     );
   }
 }
